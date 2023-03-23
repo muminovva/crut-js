@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+    background: #066acd;
+}
+.container{
+    width: 100%;
+    min-width: 450px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    background: white;
+    min-height: 100px;
+    border-radius: 10px;
+}
+#newtask{
+    position: relative;
+    padding: 30px 20px;
+}
+#newtask input{
+width: 75%;
+height: 45%;
+font-family: 'Courier New', Courier, monospace;
+font-size: 15px;
+border: 2px solid #d1d3d4;
+padding: 12px;
+color: #111111;
+font-weight: 500;
+position: relative;
+border-radius: 5px;
+}
+#newtask input:focus{
+outline: none;
+border-color: #0d75ec;
+}
+.btn{
+position: relative;
+float: right;
+width: 50px;
+height: 45px;
+border-radius: 5px;
+font-family: 'Courier New', Courier, monospace;
+font-weight: 500;
+font-size: 16px;
+background-color:  #0d75ec;
+border: none;
+color: white;
+outline: none;
+}
+#tasks{
+   background-color: #c5e1e6;
+   margin-top: 10px;
+   padding: 20px 30px;
+   border-radius: 10px;
+   width: 970px;
+   position: relative;
+  
+}
+#task{
+    background-color: white;
+    height: 50px;
+    margin-bottom: 8px;
+    padding: 5px 10px;
+    display: flex;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #939697;
+    cursor: pointer;
+  
+}
+.task span{
+ font-family: 'Courier New', Courier, monospace;
+ font-size: 15px;
+ font-weight: 400;
+}
+.task button{
+    background: #0a2ea4;
+    color: white;
+    height: 100%;
+    width: 40px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+   margin-left: 1200px;
+}
+@media (max-width:575px) {
+    #newtask input {
+        /* width: 56%; */
+        /* height: 20%; */
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 12px;
+        border: 2px solid #d1d3d4;
+        padding: 6px;
+        color: #111111;
+        font-weight: 500;
+        position: relative;
+        border-radius: 5px;
+    }
+    #tasks {
+        background-color: #c5e1e6;
+        margin-top: 10px;
+        padding: 20px 30px;
+        border-radius: 10px;
+        /* width: 959px; */
+        position: relative;
+    }
+    #tasks {
+        background-color: #c5e1e6;
+        margin-top: 10px;
+        padding: 20px 30px;
+        border-radius: 10px;
+        /* width: 970px; */
+        position: relative;
+    }
+}
